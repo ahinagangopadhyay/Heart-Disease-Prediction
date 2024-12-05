@@ -48,7 +48,6 @@ pipeline.fit(X_train, y_train)
 y_pred = pipeline.predict(X_test)
 from sklearn.metrics import confusion_matrix, classification_report
 
-#Confusion matrix
 cm = confusion_matrix(y_test, y_pred)
 conf_matrix = pd.DataFrame(data = cm, 
                            columns = ['Predicted:0', 'Predicted:1'], 
