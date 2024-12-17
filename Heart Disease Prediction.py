@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
 import seaborn as sns 
-import scipy.optimize as opt 
+import scipy.optimize as opt
 import statsmodels.api as sm 
 from sklearn import preprocessing  
 file_path = '/content/drive/MyDrive/dataset.csv'
