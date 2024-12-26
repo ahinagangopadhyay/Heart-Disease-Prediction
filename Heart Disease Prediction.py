@@ -4,7 +4,7 @@ drive.mount(mount)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
-import seaborn as sns 
+import seaborn as sns
 import scipy.optimize as opt
 import statsmodels.api as sm 
 from sklearn import preprocessing  
